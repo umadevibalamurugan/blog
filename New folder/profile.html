@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit Profile</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Edit Profile</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="profile-form">
+      <h2>Edit Profile</h2>
+      <form id="edit-profile-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="umadevi B">
+        
+        <label for="dob">Date of Birth</label>
+        <input type="text" id="dob" name="dob" value="07-12-2003">
+        
+        <label for="account-type">Account Type</label>
+        <select id="account-type" name="account-type">
+          <option value="public">Public</option>
+          <option value="private">Private</option>
+        </select>
+        
+        <button type="submit">Save</button>
+      </form>
+    </section>
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

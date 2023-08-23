@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  /* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotZj18F7r0UQzsW3HGse_NxJE_IykII83MVEB6Q4-IM08O8nwHwAoMIYEc4AeMyKK1kI&usqp=CAU'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* Rest of your existing CSS styles... */
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  #profile {
+    color: #ffcc00;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  /* Compose Post section styling */
+  #tweet-form {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  #compose-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #tweet-content {
+    resize: vertical;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #media {
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Recent Post section styling */
+  #tweet-feed {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  #tweets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Individual post styling */
+  .tweet {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .tweet-content {
+    margin-bottom: 10px;
+  }
+  
+  .tweet-media {
+    max-width: 100%;
+    height: auto;
+  }
+  

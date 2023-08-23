@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6583af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  #profile-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #profile-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #profile-form input,
+  #profile-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #profile-form button {
+    background-color: #436277;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #profile-form button:hover {
+    background-color: #05385a;
+  }
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #compose-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  #compose-form button {
+    background-color: #458db9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #tweets {
+    margin-top: 20px;
+  }
+  
+  .tweet {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+.profile {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0 20px 20px;
+  float: right;
+  max-width: calc(25% - 30px); /* Adjust the width as needed */
+}
+
+/* Your existing CSS styles... */
+
+/* Adjust the styles for resized images */
+.tweet img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust the styles for videos */
+.tweet video {
+  max-width: 100%;
+  height: auto;
+}
+
+  

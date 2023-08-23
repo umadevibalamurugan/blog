@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloging Website</title>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Hii ,UMA</h1>
+ <a href="profile.html" id="profile"> Profile</a>
+ <a href="logout.html" id="logout"> Logout</a>
+
+</header>
+
+<main>
+  <section id="tweet-form">
+    <h2>Compose a Post</h2>
+    <form id="compose-form">
+      <textarea id="tweet-content" placeholder="What's happening?"></textarea>
+      <input type="file" id="media" accept="image/*,video/*">
+      <button type="submit">Post</button>
+    </form>
+  </section>
+
+  <section id="tweet-feed">
+    <h2>Recent Post</h2>
+    <div id="tweets">
+      <!-- Tweet elements will be added here dynamically -->
+    </div>
+  </section>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
